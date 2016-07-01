@@ -12,9 +12,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //Variables for team score
     int scoreA = 0;
     int scoreB = 0;
-
     //Event handlers for Team A buttons
     public void threePointA(View view){
         scoreA = scoreA+=3;
